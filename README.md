@@ -6,5 +6,5 @@ Repositorio con los temas y ejercicios
 | Ejercicio | Descripción |
 | --------- | ----------- |
 | [Ejercicio_1](/TEMA1/ejercicio1.html) | mi primera pagrina web sencilla |
-| Ejercicio_2 | Descripción_2 |
+| Ejercicio_2 | documento XML de una biblioteca |
 | Ejercicio_3 | Descripción_3 |
