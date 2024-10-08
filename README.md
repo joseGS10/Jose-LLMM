@@ -6,3 +6,5 @@ Repositorio con los temas y ejercicios
 | Ejercicio | Descripción |
 | --------- | ----------- |
 | Ejercicio_1 | Descripción_1 |
+| Ejercicio_2 | Descripción_2 |
+| Ejercicio_3 | Descripción_3 |
