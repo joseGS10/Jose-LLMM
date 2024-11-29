@@ -17,4 +17,4 @@ Repositorio con los temas y ejercicios
 | [Ejercicio 7](/TEMA1/ejercicio7html.html) | Ejercicio_7html |
 | [ejercicio 8](/TEMA1/ejercicio8html.html) | Ejercicio_8html |
 | [Ejercicio 10](/TEMA1/ejercicio10html.html)   | Ejercicio_10html |
-| [Ejercicio 11](/TEMA1/ejercicio11.html)   | Ejercicio_11html |
+| [Ejercicio 11](/TEMA1/ejercicio11html.html)   | Ejercicio_11html |
