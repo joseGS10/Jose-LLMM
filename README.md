@@ -24,4 +24,4 @@ Repositorio con los temas y ejercicios
 | [Ejercicio 15](/TEMA1/ejercicio15html.html)   | Ejercicio_15html |
 | [Ejercicio 16](/TEMA1/ejercicio16html.html)   | Ejercicio_16html |
 | [Ejercicio 17](/TEMA1/ejercicio17)   | Ejercicio_17html |
-| [Ejercicio 18](/TEMA1/ejercicio12html.html)   | Ejercicio_18html |
+| [Ejercicio 18](/TEMA1/ejercicio18)   | Ejercicio_18html |
