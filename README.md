@@ -21,3 +21,7 @@ Repositorio con los temas y ejercicios
 | [Ejercicio 12](/TEMA1/ejercicio12html.html)   | Ejercicio_12html |
 | [Ejercicio 13](/TEMA1/ejercicio13html.html)   | Ejercicio_13html |
 | [Ejercicio 14](/TEMA1/ejercicio14html.html)   | Ejercicio_14html |
+| [Ejercicio 15](/TEMA1/ejercicio15html.html)   | Ejercicio_15html |
+| [Ejercicio 16](/TEMA1/ejercicio16html.html)   | Ejercicio_16html |
+| [Ejercicio 17](/TEMA1/ejercicio17html.html)   | Ejercicio_17html |
+| [Ejercicio 18](/TEMA1/ejercicio12html.html)   | Ejercicio_18html |
