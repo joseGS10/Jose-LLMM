@@ -18,3 +18,4 @@ Repositorio con los temas y ejercicios
 | [ejercicio 8](/TEMA1/ejercicio8html.html) | Ejercicio_8html |
 | [Ejercicio 10](/TEMA1/ejercicio10html.html)   | Ejercicio_10html |
 | [Ejercicio 11](/TEMA1/ejercicio11html.html)   | Ejercicio_11html |
+| [Ejercicio 12](/TEMA1/ejercicio12html.html)   | Ejercicio_12html |
