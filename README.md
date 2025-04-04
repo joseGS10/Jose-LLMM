@@ -28,6 +28,6 @@ Repositorio con los temas y ejercicios
 
 ## TEMA 3 JavaScript
 
-| Ejercicio | Descrición |
-| --------- | ---------- |
-| [Ejercicio 1](TEMA3/ej01.html) ] un primermejemplo de uso de javascript |
+| Ejercicio | Descripción |
+| --------- | ----------- |
+| [Ejercicio 1](TEMA3/ej01.html) | un primer ejemplo de uso de javascript |
