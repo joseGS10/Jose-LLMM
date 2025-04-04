@@ -25,3 +25,9 @@ Repositorio con los temas y ejercicios
 | [Ejercicio 16](/TEMA1/ejercicio16html.html)   | Ejercicio_16html |
 | [Ejercicio 17](/TEMA1/ejercicio17)   | Ejercicio_17html |
 | [Ejercicio 18](/TEMA1/ejercicio18)   | Ejercicio_18html |
+
+## TEMA 3 JavaScript
+
+| Ejercicio | Descrición |
+| --------- | ---------- |
+| [Ejercicio 1](TEMA3/ej01.html) ] un primermejemplo de uso de javascript |
