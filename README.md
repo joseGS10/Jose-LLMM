@@ -30,4 +30,4 @@ Repositorio con los temas y ejercicios
 
 | Ejercicio | Descripción |
 | --------- | ----------- |
-| [Ejercicio 1](TEMA3.Javasript/ejercicio1/ej01.html) | un primer ejemplo de uso de javascript |
+| [Ejercicio 1](TEMA3.JavaSript/ejercicio1/ej01.html) | un primer ejemplo de uso de javascript |
