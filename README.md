@@ -31,7 +31,7 @@ Repositorio con los temas y ejercicios
 | Ejercicio | Descripcióm |
 | --------- | ----------- |
 | [Ejercicio_1](TEMA2.CSS/ejercicio1) |
-| [Ejercicio_2](TEMA2.CSS/ejercicio2) |
+| [Ejercicio_2](TEMA2.CSS/ejercicio2) | Dando forma (Aplicando CSS) a un archivo HTML |
 
 
 ## TEMA 3 JavaScript
