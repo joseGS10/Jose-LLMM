@@ -26,6 +26,14 @@ Repositorio con los temas y ejercicios
 | [Ejercicio 17](/TEMA1/ejercicio17)   | Ejercicio_17html |
 | [Ejercicio 18](/TEMA1/ejercicio18)   | Ejercicio_18html |
 
+## TEMA 2 CSS
+
+| Ejercicio | Descripcióm |
+| --------- | ----------- |
+| [Ejercicio_1](TEMA2.CSS/ejercicio1) |
+| [Ejercicio_2](TEMA2.CSS/ejercicio2) |
+
+
 ## TEMA 3 JavaScript
 
 | Ejercicio | Descripción |
