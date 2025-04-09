@@ -30,7 +30,7 @@ Repositorio con los temas y ejercicios
 
 | Ejercicio | Descripcióm |
 | --------- | ----------- |
-| [Ejercicio_1](TEMA2.CSS/ejercicio1) |
+| [Ejercicio_1](TEMA2.CSS/ejercicio1) | Ejemplo de Curriculum en HTML apicandole CSS |
 | [Ejercicio_2](TEMA2.CSS/ejercicio2) | Dando forma (Aplicando CSS) a un archivo HTML |
 
 
