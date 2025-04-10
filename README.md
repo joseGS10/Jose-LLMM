@@ -33,6 +33,7 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_1](TEMA2.CSS/ejercicio1) | Ejemplo de Curriculum en HTML apicandole CSS |
 | [Ejercicio_2](TEMA2.CSS/ejercicio2) | Dando forma (Aplicando CSS) a un archivo HTML |
 | [Ejercicio_3](TEMA2.CSS/ejercicio3) | Jugando con las propiedades de background |
+| [Ejercicio_4](TEMA2.CSS/ejercicio4.html) |Creación de un menú horizontal fijo |
 
 ## TEMA 3 JavaScript
 
