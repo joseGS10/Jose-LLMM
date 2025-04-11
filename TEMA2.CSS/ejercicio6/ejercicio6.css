@@ -1,0 +1,30 @@
+table {
+    border: 2px solid;
+    margin-left: 10%;
+    font-size: 20px;
+    border-spacing: 5px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+    
+}
+th , td {
+    padding: 5px;
+}
+.sombras {
+    background-color: rgb(190,190,190);
+    color: white;
+}
+#Light_Sand {
+    color: rgb(254, 255, 239);
+}
+
+#Beige {
+    color: rgb(245, 245, 220);
+}
+
+#Chocolate {
+    color: rgb(210, 105, 30);
+}
+
+#Gray {
+    color: rgb(190, 190, 190)
+}
