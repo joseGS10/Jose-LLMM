@@ -1,0 +1,71 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+}
+p {
+    padding: 10px;
+}
+#p1 {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: bisque;
+    border: 1px solid black;
+    width: 60%;
+    height: 10%;
+    text-align: center;
+}
+#p3 {
+    position: absolute;
+    left: 2%;
+    top: 25%;
+    background-color: rgb(243, 243, 95);
+    border: 3px solid yellowgreen;
+    width: 40%;
+    height: 20%;
+    text-align: left;
+}
+#p5 {
+    position: absolute;
+    left: 2%;
+    bottom: 20%;
+    background-color: pink;
+    border: 3px solid plum;
+    width: 40%;
+    height: 20%;
+    text-align: left;
+}
+#p4 {
+    position: absolute;
+    right: 2%;
+    top: 25%;
+    background-color: rgb(192, 242, 254);
+    border: 3px solid rgb(69, 69, 180);
+    width: 40%;
+    height: 20%;
+}
+#p6 {
+    position: absolute;
+    right: 2%;
+    bottom: 20%;
+    background-color: palevioletred;
+    border: 3px solid rgb(169, 53, 91);
+    width: 40%;
+    height: 20%;
+    text-align: right;
+}
+#p2 {
+    position: absolute;
+    left: 30%;
+    top: 35%;
+    background-color:greenyellow;
+    border: 3px solid green;
+    width: 40%;
+    height: 25%;
+    text-align: center;
+}
+
+p:hover {
+    z-index: 1; /* al haber mostrado todas las leyes en el mismo nivel con un 1 nos ponemos por 
+    encima de las demás */
+}

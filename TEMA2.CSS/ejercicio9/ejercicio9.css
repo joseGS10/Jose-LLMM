@@ -1,0 +1,175 @@
+div.contenedor { 
+    /* definimos un contenedor principal el cual gracias a position: relative, se va a 
+    establecer dento de la pagina según los valores de las propiedades width, height y margin */
+    position: relative; 
+    width: 500px; 
+    height: 300px; 
+    background-color: #E0E0e0; 
+    margin: auto; 
+}  
+div.uno { 
+    /* este contenedor está contenido detro del principal, presenta position: absolute, lo
+    que quiere decir que dicho contenedor se situará dentro del principal en base a las 
+    propiedades que se le dan a continuación: top, left, width, height, margin */
+    position: absolute; 
+    top: 0px; 
+    left: 0; 
+    width: 200px; 
+    height: 50px; 
+    background-color: red; 
+    margin: 10px;   
+    font-size: 40px; 
+} 
+div.dos { 
+    /* este otro se comporta igual al anterior al tener definida la propiedad position: 
+    absolute */
+    position: absolute; 
+    bottom: 0px; 
+    right: 0px; 
+    width: 200px; 
+    height: 50px; 
+    background-color: blue; 
+    margin: 10px;   
+    font-size: 40px; 
+} 
+div.tres { 
+    /* este igual */
+    position: absolute; 
+    bottom: 0px; 
+    left: 0px; 
+    width: 200px; 
+    height: 100px; 
+    background-color: green; 
+    margin: 10px;   
+    font-size: 40px; 
+} 
+div.cuatro { 
+    /* y este tambien */
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    width: 200px; 
+    height: 100px; 
+    background-color: yellow; 
+    margin: 10px;   
+    font-size: 40px; 
+} 
+div.s_uno { 
+    position: absolute; 
+    top: 10px; 
+    left: 110px; 
+    width: 230px; 
+    height: 150px; 
+    background-color: blue; 
+    font-size: 40px; 
+} 
+div.s_dos { 
+    position: absolute; 
+    bottom: 75px; 
+    left: 50px; 
+    width: 135px; 
+    height: 115px; 
+    background-color: green; 
+    font-size: 40px; 
+} 
+div.s_tres { 
+    position: absolute; 
+    top: 70px; 
+    right: 60px; 
+    width: 180px; 
+    height: 150px; 
+    background-color: yellow; 
+    font-size: 40px; 
+} 
+div.s_cuatro { 
+    position: absolute; 
+    bottom: 25px; 
+    left: 170px; 
+    width: 210px; 
+    height: 90px; 
+    background-color: red; 
+    font-size: 40px; 
+    z-index: 2; 
+} 
+
+/* apartado 3 del ejercicio */
+div.t_uno { 
+    position: absolute; 
+    top: 50px; 
+    left: 50px;
+    bottom: 50px; 
+    width: 100px; 
+    height: 200px; 
+    background-color: green; 
+    font-size: 40px; 
+} 
+div.t_dos { 
+    position: absolute; 
+    top: 50px; 
+    left: 150px;
+    bottom: 50px;
+    width: 100px; 
+    height: 200px; 
+    background-color: yellow; 
+    font-size: 40px; 
+} 
+div.t_tres { 
+    position: absolute; 
+    top: 50px; 
+    left: 250px;
+    bottom: 50px;
+    width: 100px; 
+    height: 200px; 
+    background-color: red; 
+    font-size: 40px; 
+} 
+div.t_cuatro { 
+    position: absolute; 
+    top: 50px; 
+    left: 350px;
+    bottom: 50px;
+    width: 100px; 
+    height: 200px; 
+    background-color: blue; 
+    font-size: 40px; 
+} 
+
+/* apartado 4 del ejerccicio */
+div.c_uno { 
+    position: absolute; 
+    left: 50px;
+    bottom: 50px; 
+    width: 400px; 
+    height: 75px; 
+    background-color: yellow; 
+    font-size: 40px; 
+} 
+div.c_dos { 
+    position: absolute; 
+    top: 50px;
+    left: 50px;
+    width: 400px; 
+    height: 75px; 
+    background-color: red; 
+    font-size: 40px; 
+} 
+div.c_tres { 
+    position: absolute; 
+    top: 25px; 
+    left: 100px;
+    bottom: 50px;
+    width: 100px; 
+    height: 250px; 
+    background-color: blue; 
+    font-size: 40px; 
+} 
+div.c_cuatro { 
+    position: absolute; 
+    top: 25px; 
+    right: 100px;
+    bottom: 50px;
+    width: 100px; 
+    height: 250px; 
+    background-color: green; 
+    font-size: 40px; 
+} 

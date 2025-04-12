@@ -1,0 +1,38 @@
+<!-- En este ejecicio se definen los parrafos con unas determinadas caracteristicas, entre ellas float, para
+ que cada parrafo flote ala izquierda, de esta forma mientras quepan parrafos en primera linea, junto al 
+ anterior parrafo, se situará junto a él, cuando no quede espacio en la página se situará en la siguiente linea,
+ justo a la izquierda del todo -->
+
+<!-- Si agrandamos o disminuimos el tamaño de la paágina podemos ver como se mueven los párrafos para ubicarse 
+ en la posición adecuada -->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ p {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 3px;
+  padding: 3px;
+  border: black 2px solid;
+}
+p::first-letter {
+  font-size: 3em;       /* Tamaño grande de la letra */
+  font-weight: bold;    /* Negrita */
+  float: left;          /* Hace que la letra "flote" a la izquierda del texto */
+  line-height: 0.8;     /* Altura de línea , para que la letra salga más hacia arriba o más hacia abajo */
+}
+</style>
+<body>
+    <p>Aveces podemos pasarnos años sin vivir en absoluto y, de pronto, toda nuestra vida se concentra en un solo instante.</p>
+    <p>Amenudo mantengo largas conversaciones conmigo mismo, y soy tan inteligente que a veces no entiendo ni una palabra de lo que digo.</p>
+    <p>Uno debería estar siempre enamorado. Por eso jamás deberíamos casarnos.</p>
+    <p>Lo menos frecuente en este mundo es vivir. La mayoría de la gente existe, eso es todo.</p>
+    <p>No hay nada como el amor de una mujer casada. Es una cosa de la que ningún marido tiene la menor idea.</p>
+</body>
+</html>
