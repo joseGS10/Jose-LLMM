@@ -36,6 +36,9 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_4](TEMA2.CSS/ejercicio4) | Creación de un menú horizontal fijo |
 | [Ejercicio_5](TEMA2.CSS/ejercicio5) | Una primera tabla |
 | [Ejercicio_6](TEMA2.CSS/ejercicio6) | Una segunda tabla. Otro estilo |
+| [Ejercicio_7](TEMA2.CSS/ejercicio7) | Uso de float |
+| [Ejercicio_8](TEMA2.CSS/ejercicio8) | Leyes de Murphy |
+| [Ejercicio_9](Tema2.CSS/ejercicio9) | Trabajando con la propiedad position |
 
 
 ## TEMA 3 JavaScript
