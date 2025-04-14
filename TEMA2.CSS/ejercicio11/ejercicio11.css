@@ -1,0 +1,48 @@
+ul {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    width: 99%;
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: dimgray;
+}
+li a.activa {
+    background-color: green;
+}
+
+div.imagen {
+    float: left;
+    width: 33.3%;
+    border: 1px solid green;
+    margin-top: 39px;
+    box-sizing: border-box;
+}
+
+div.imagen img {
+    width: 100%;
+    height: auto;
+  }
+
+div.imagen img:hover {
+    border: 1px solid red;
+}
+
+.informacion {
+    text-align: center;
+}
