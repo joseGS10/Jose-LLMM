@@ -1,0 +1,10 @@
+.container_ppal {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container_ppal > div {
+    width: 185px;
+    margin: 5px;
+    border: 2px solid;
+    padding: 3px; 
+}
