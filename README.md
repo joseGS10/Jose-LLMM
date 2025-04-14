@@ -40,7 +40,7 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_8](TEMA2.CSS/ejercicio8) | Leyes de Murphy |
 | [Ejercicio_9](Tema2.CSS/ejercicio9) | Trabajando con la propiedad position |
 | [Ejercicio_10](TEMA2.CSS/ejercicio10) | Contenedor flexible. display:flex |
-
+| [ejercicio_11](TEMA2.CSS/ejercicio11) | barra de navegación horizontal y Galería de imágenes |
 
 
 ## TEMA 3 JavaScript
