@@ -28,7 +28,7 @@ Repositorio con los temas y ejercicios
 
 ## TEMA 2 CSS
 
-| Ejercicio | Descripcióm |
+| Ejercicio | Descripción |
 | --------- | ----------- |
 | [Ejercicio_1](TEMA2.CSS/ejercicio1) | Ejemplo de Curriculum en HTML apicandole CSS |
 | [Ejercicio_2](TEMA2.CSS/ejercicio2) | Dando forma (Aplicando CSS) a un archivo HTML |
@@ -43,6 +43,9 @@ Repositorio con los temas y ejercicios
 | [ejercicio_11](TEMA2.CSS/ejercicio11) | barra de navegación horizontal y Galería de imágenes |
 
 ## Proyecto Bootstrap
+
+| Ejercicio | Descripción |
+| --------- | ----------- |
 | [Practica_Boostrap](ProyectoBootstrap/Practica Bootstrap) | página web diseño bootstrap. Temática: Triatlón |
 
 ## TEMA 3 JavaScript
@@ -53,4 +56,4 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_2](TEMA3.JavaScript/ejercicio2) | un segundo ejemplo de javascript |
 | [Ejercicio_3](TEMA3.JavaScript/ejercicio3) | botones y select para mostrar imagenes de coches y spidermans | 
 | [Juego_bombillas](TEMA3.JavaScript/juego_bombillas) | juego apaga bombillas |
-| [Ejercicio_4](TEMA3.JavaScript/ejercicio4) | recogida de datos e impresión de losmismos |
+| [Ejercicio_4](TEMA3.JavaScript/ejercicio4) | recogida de datos e impresión de los mismos |
