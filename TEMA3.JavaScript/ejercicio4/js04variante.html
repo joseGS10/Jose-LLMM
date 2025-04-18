@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js04variante.js"></script>
+</head>
+<body>
+
+ <h2>Toma de datos mediante un formulario e impresión por pantalla</h2>
+ <!-- recogida de datos mediante formulario -->
+ <form id="formulario">
+  Nombre: <input type="text" value="no aportado"><br><br>
+  Edad: <input type="number" value="-1"><br><br>
+  Dirección: <input type="text" value="no aportada"><br><br>
+</form> 
+
+<button onclick="imprimir()">Mostra datos</button>
+<button type="button" onclick="document.getElementById('demo').style.visibility='hidden'">Volver a preguntar</button>
+
+<p id="demo"></p>
+
+</body>
+</html>

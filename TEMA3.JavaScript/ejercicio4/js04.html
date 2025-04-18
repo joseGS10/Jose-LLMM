@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="js04.js"></script>
+    </head>
+<body>
+<h2>Recogida de datos mediante parrafos y muestra por pantalla</h2>
+<!-- recogida de datos mediante etiquetas <p> e <input> -->
+<p>Dame tu nombre: <input type="text" id="nombre" value=""></p>
+<p>Dime tu edad: <input type="number" id="edad" value=""></p>
+<p>Dime tu dirección: <input id="direccion"></p>
+
+<button type="button" onclick="imprimir()">Pulsa y observa</button>
+<button type="button" onclick="document.getElementById('demo').style.visibility='hidden'">Volver a preguntar</button>
+
+<p id="demo"></p>
+
+</body>
+</html>
