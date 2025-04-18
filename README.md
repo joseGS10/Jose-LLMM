@@ -49,6 +49,6 @@ Repositorio con los temas y ejercicios
 | --------- | ----------- |
 | [Ejercicio 1](TEMA3.JavaScript/ejercicio1) | un primer ejemplo de uso de javascript |
 | [Ejercicio_2](TEMA3.JavaScript/ejercicio2) | un segundo ejemplo de javascript |
-
+| [Ejercicio_3](TEMA3.JavaScript/ejercicio3) | botones y select para mostrar imagenes de coches y spidermans | 
 
 
