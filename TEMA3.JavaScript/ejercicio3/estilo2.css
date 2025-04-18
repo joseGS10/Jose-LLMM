@@ -1,0 +1,26 @@
+body {
+    background-color: #111;
+    color: #f0f0f0;
+    font-family: 'Courier New', monospace;
+}
+
+.area {
+    border: 2px dashed #888;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.coches {
+    width: 50%;
+    background-color: #545252;
+}
+
+.spidermans {
+    width: 50%;
+    background-color: #7368a0;
+}
+
+button {
+    margin: 5px;
+}
