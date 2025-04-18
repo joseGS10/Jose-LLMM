@@ -42,6 +42,8 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_10](TEMA2.CSS/ejercicio10) | Contenedor flexible. display:flex |
 | [ejercicio_11](TEMA2.CSS/ejercicio11) | barra de navegación horizontal y Galería de imágenes |
 
+## Proyecto Bootstrap
+| [Practica_Boostrap](ProyectoBootstrap/Practica Bootstrap) | página web diseño bootstrap. Temática: Triatlón |
 
 ## TEMA 3 JavaScript
 
