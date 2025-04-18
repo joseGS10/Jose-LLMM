@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego_Bombillas</title>
+    <style>
+        td{
+            border: 1px black solid;
+        }
+    </style>
+</head>
+<body>
+    <!-- creo una tabla de 3 x 3 donde colocaré las bombillas -->
+    <!-- Se parte de un tablero de 9 bombillas en el que inicialmente la bombilla central está encendida y el resto
+         apagadas. El juego consiste em pulsar bombillas e intentar que todas queden apagadas en algún momento. 
+         Para ello, cada vez que se pulsa sobre una bombilla, cambia su estado y el de sus abyacentes. --> 
+    <table>
+        <tr>
+            <td><img id="11" src="bombioff.png" style="width: 50px;"
+                 onclick="cambiar_estado('12'); cambiar_estado('21'); cambiar_estado('11')">
+            </td>
+            <td><img id="12" src="bombioff.png" style="width: 50px;" 
+                 onclick="cambiar_estado('11'); cambiar_estado('13'); cambiar_estado('22'); cambiar_estado('12')">
+            </td>
+            <td><img id="13" src="bombioff.png" style="width: 50px;"
+                 onclick="cambiar_estado('12'); cambiar_estado('23'); cambiar_estado('13')">
+            </td>
+        </tr>
+        <tr>
+            <td><img id="21" src="bombioff.png" style="width: 50px;"
+                 onclick="cambiar_estado('11'); cambiar_estado('31'); cambiar_estado('22'); cambiar_estado('21')">
+            </td>
+            <td><img id="22" src="bombion.png" style="width: 50px;" 
+                 onclick="cambiar_estado('12'); cambiar_estado('21'); cambiar_estado('23'); cambiar_estado('32'); cambiar_estado('22')">
+            </td>
+            <td><img id="23" src="bombioff.png" style="width: 50px;"
+                 onclick="cambiar_estado('13'); cambiar_estado('22'); cambiar_estado('33'); cambiar_estado('23')">
+            </td>
+        </tr>
+        <tr>
+            <td><img id="31" src="bombioff.png" style="width: 50px;"
+                 onclick="cambiar_estado('21'); cambiar_estado('32'); cambiar_estado('31')">
+            </td>
+            <td><img id="32" src="bombioff.png" style="width: 50px;"
+                 onclick="cambiar_estado('22'); cambiar_estado('31'); cambiar_estado('33'); cambiar_estado('32')">
+            </td>
+            <td><img id="33" src="bombioff.png" style="width: 50px;"
+                 onclick="cambiar_estado('23'); cambiar_estado('32'); cambiar_estado('33')">
+            </td>
+        </tr>
+    </table>
+    <script>
+        function cambiar_estado(id){
+            // si se encuentra el elemento con id en el documento se guardar en la variable, de lo contrario la variable será NULL
+            let imagen = document.getElementById(id);
+            if (imagen){ //si cierto la variable imagen entonces (si es NULL no entra)
+                    // se almacena en imagen.src la bombilla contraria a la que hay actualmente (operador ternario)
+                    imagen.src = imagen.src.includes("bombioff.png") ? "bombion.png" : "bombioff.png";
+            }
+    
+        }
+    </script>
+</body>
+</html>
