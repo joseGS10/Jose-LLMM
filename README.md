@@ -48,3 +48,7 @@ Repositorio con los temas y ejercicios
 | Ejercicio | Descripción |
 | --------- | ----------- |
 | [Ejercicio 1](TEMA3.JavaScript/ejercicio1) | un primer ejemplo de uso de javascript |
+| [Ejercicio_2](TEMA3.JavaScript/ejercicio2) | un segundo ejemplo de javascript |
+
+
+
