@@ -51,4 +51,4 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_2](TEMA3.JavaScript/ejercicio2) | un segundo ejemplo de javascript |
 | [Ejercicio_3](TEMA3.JavaScript/ejercicio3) | botones y select para mostrar imagenes de coches y spidermans | 
 | [Juego_bombillas](TEMA3.JavaScript/juego_bombillas) | juego apaga bombillas |
-
+| [Ejercicio_4](TEMA3.JavaScript/ejercicio4) | recogida de datos e impresión de losmismos |
