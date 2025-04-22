@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(218, 113, 131);
+}
+
+.img-container {
+    min-height: 70vh;
+    background: url("./imagenes/flor0.avif");
+    border: 10px solid rgb(231, 201, 162);
+    border-radius: 5px;
+    position: relative;
+    top: 100px;
+    background-size: cover;
+}
+
+.izq {
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    background:rgb(231, 201, 162);
+    color: navy;
+    border: 15px solid rgb(231, 201, 162);
+    border-radius: 10px; 
+    font-size: 20px;
+}
+
+.izq:hover {
+    background:navy ;
+    border-color: navy;
+    color: rgb(231, 201, 162);
+
+}
+.dcho {
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    background:rgb(231, 201, 162);
+    color: navy;
+    border: 15px solid rgb(231, 201, 162);
+    border-radius: 10px; 
+    font-size: 20px;
+}
+
+.dcho:hover {
+    background:navy ;
+    border-color: navy;
+    color: rgb(231, 201, 162);
+
+}
