@@ -46,7 +46,7 @@ Repositorio con los temas y ejercicios
 
 | Ejercicio | Descripción |
 | --------- | ----------- |
-| [PracticaBootstrap](ProyectoBootstrap/PracticaBootstrap) | página web diseño bootstrap. Temática: Triatlón |
+| [PracticaBootstrap](PracticaBootstrap/PracticaBootstrap) | página web diseño bootstrap. Temática: Triatlón |
 
 ## TEMA 3 JavaScript
 
