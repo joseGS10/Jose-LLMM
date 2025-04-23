@@ -60,3 +60,5 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_5](TEMA3.JavaScript/ejercicio5) | prácticando con botones que cambian las propiedades o contenido de algunos elementos |
 | [Ejercicio_6](TEMA3.JavaScript/ejercicio6) | frases celebres aleatorias |
 | [Ejercicio_7](TEMA3.JavaScript/ejercicio7) | pasando imagenes a izq y dcha |
+| [Ejercicio_8](TEMA3.JavaScript/ejercicio8) | calculadora |
+| [Ejercicio_9](TEMA3.JavaScript/ejercicio9) | paso de Farhenheit a Celsius y viceversa |
