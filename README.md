@@ -62,3 +62,8 @@ Repositorio con los temas y ejercicios
 | [Ejercicio_7](TEMA3.JavaScript/ejercicio7) | pasando imagenes a izq y dcha |
 | [Ejercicio_8](TEMA3.JavaScript/ejercicio8) | calculadora |
 | [Ejercicio_9](TEMA3.JavaScript/ejercicio9) | paso de Farhenheit a Celsius y viceversa |
+| [Ejercicio_10](TEMA3.JavaScript/ejercicio10) | aquí se recogen los 10 subejercicios de que consta este ejercicio |
+| [DOM_Ejercicio1](TEMA3.JavaScript/DOMejercicio1) | Mediante el DOM mostrar el contenido de varios parrafos en un div |
+| [DOM_Ejercicio2](TEMA3.JavaScript/DOMejercicio2) | Mediante el DOM Crear una imagen y agregarla a un div |
+| [DOM_Ejercicio3](TEMA3.JavaScript/DOMejercicio3) | Eliminar los elementos de una lista mediante el DOM |
+| [DOM_Ejercicio4](TEMA3.JavaScript/DOMejercicio4) | Visionar elementos HTML de una web a través de la consola de comandos |
