@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora {
+    flex: 0 0 40%;
+}
+
+.pantalla{
+    width: 100%;
+    font-size: 50px;
+    padding: 0.5rem;
+    background: rgb(41,41,56);
+    color: white;
+    border:none;
+}
+
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.operando, .operador, .punto, .igual {
+    flex:0 0 25%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    font-size: 30px;
+}
+
+.operando {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.punto, .operador {
+    background-color: yellow;
+}
+.igual {
+    background-color: greenyellow;
+}
+ .operando:hover, .operador:hover, .punto:hover, .igual:hover {
+    background-color: rgb(145, 219, 213);
+}
+
+.borrado {
+    flex:0 0 100%;
+    border: 1px solid black;
+    padding: 0.25rem 0;
+    font-size: 30px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+}
+
+.borrado:hover {
+    background-color: aliceblue;
+    color: red;
+}

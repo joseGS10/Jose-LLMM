@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<script>
+function traducir(x) {
+    let str = document.getElementById('texto').value;
+    let textotraducido = "";
+    for(let i=0; i<str.length; i++){
+        if (str[i] != "A" & str[i] != "E" & str[i] != "I" & str[i] != "O" & str[i] != "U" 
+            & str[i] != "a" & str[i] != "e" & str[i] != "i" & str[i] != "o" 
+            & str[i] != "u" & str[i] != " "){
+                textotraducido += str[i] + "o" + str[i];
+            }
+        else {
+            textotraducido += str[i];
+        }
+    }
+    document.getElementById('res').innerHTML = textotraducido;
+}
+ </script>
+
+<body>
+<p>Programa que traduce el texto introducido a jerga D. Rövarspråket.</p><br>
+<label for="text">Introduce el texto a traducir: </label>
+<input type="text" id="texto" name="texto"><br>
+<button onclick="traducir()">Traducir</button><br>
+<p id="res"></p>
+</body>
+</html>

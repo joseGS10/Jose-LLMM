@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Vamos a crear un elemento img y lo vamos a incorporar a un div existente</h1>
+    <h2>Para ello usaremos el método createElement()</h2>
+
+    <div id="añademe" style="width: 60%; background-color: black; color: white; padding: 10px">
+        <h3>Estamos en un DIV y voy a incorporar en el una imagen creada con createElement()</h3>    </div>
+
+    <script>
+        const imagen = document.createElement('img');
+        imagen.src = "spiderman1.gif";
+        document.getElementById('añademe').appendChild(imagen); 
+   </script>
+</body>
+</html>

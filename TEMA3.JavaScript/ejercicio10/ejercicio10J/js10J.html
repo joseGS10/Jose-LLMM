@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+ 
+function charFreq() {
+    var str = document.getElementById('texto').value;
+    var frecuencia = {}; //objeto que almacenará la frecuencia de cada caracter (par: caracter,valor)
+    for(i =0; i < str.length; i++) {
+        var caracter = str[i];
+        if (frecuencia[caracter]){
+            frecuencia[caracter]++;
+        }
+        else {
+            frecuencia[caracter]=1;
+        }
+    }
+    var objeto = "Frecuencia de aparición de cada caracter:<br>";
+    for (let caracter in frecuencia) {
+        objeto += `"${caracter}" aparece ${frecuencia[caracter]} vez/veces<br>`;
+    }
+    document.getElementById("res").innerHTML = objeto;
+}
+
+</script>
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p> Este programa muestra las frecuencia de aparicion de cada uno de los caracteres introducidos.</p>
+    <label for="texto">Introduce una secuencia de caracteres: </label>
+    <input type="text" id="texto" name="texto"> <br>
+    <button type="button" onclick="charFreq()">Contar caracteres</button>
+    <p id="res"></p> 
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+ 
+function reverse() {
+    var str = document.getElementById('texto').value;
+    var inversa="";
+    for(i =str.length-1; i>=0; i--) {
+        inversa  += str[i];
+    } 
+    document.getElementById("res").innerHTML = inversa;
+}
+
+</script>
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p> Dado un texto, te la muestra al revés.</p>
+    <label for="texto">Introduce un texto : </label>
+    <input type="text" id="texto" name="texto"> <br>
+    <button type="button" onclick="reverse()">Invertir texto</button>
+    <p id="res"></p> 
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+ 
+function findLongestWord() {
+    var str = document.getElementById('texto').value;
+    var longitud = parseInt(document.getElementById('longi').value);
+    var array = str.split(' '); //divide por espacios
+    var palabrasmayores = "";
+    for(i =0; i < array.length; i++) {
+        if (array[i].length > longitud){
+            palabrasmayores += array[i] + " ";
+        }
+    }
+    document.getElementById("res").innerHTML = "Las palabras cuya longitud es mayor a " + longitud + " es/son " + palabrasmayores;
+}
+
+</script>
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p> Este programa muestra las palabras de la frase introducida cuya longitud es mayor a la introducida también.</p>
+    <label for="texto">Introduce una frase : </label>
+    <input type="text" id="texto" name="texto"> <br>
+    <label for="longi">Introduce una longitud de palabra : </label>
+    <input type="text" id="longi" name="longi"> <br>
+    <button type="button" onclick="findLongestWord()">Palabras mayores</button>
+    <p id="res"></p> 
+</body>
+</html>

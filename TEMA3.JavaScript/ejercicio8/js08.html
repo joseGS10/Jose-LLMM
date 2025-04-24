@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora básica</title>
+    <script src="js08.js"></script>
+    <link rel="stylesheet" href="js08.css">
+
+</head>
+<body>
+  <section class="calculadora">  
+    <input type="text" id="pantalla" class="pantalla"><br>
+    <div class="botones">
+        <button type="button" class="operando" data-num="9" onclick="imprimir(this)">9</button>
+        <button type="button" class="operando" data-num="8" onclick="imprimir(this)">8</button>
+        <button type="button" class="operando" data-num="7" onclick="imprimir(this)">7</button>
+        <button type="button" class="operador" data-num="*" onclick="imprimir(this)">*</button>
+        <button type="button" class="operando" data-num="6" onclick="imprimir(this)">6</button>
+        <button type="button" class="operando" data-num="5" onclick="imprimir(this)">5</button>
+        <button type="button" class="operando" data-num="4" onclick="imprimir(this)">4</button>
+        <button type="button" class="operador" data-num="/" onclick="imprimir(this)">/</button>
+        <button type="button" class="operando" data-num="3" onclick="imprimir(this)">3</button>
+        <button type="button" class="operando" data-num="2" onclick="imprimir(this)">2</button>
+        <button type="button" class="operando" data-num="1" onclick="imprimir(this)">1</button>
+        <button type="button" class="operador" data-num="+" onclick="imprimir(this)">+</button>
+        <button type="button" class="operando" data-num="0" onclick="imprimir(this)">0</button>
+        <button type="button" class="punto" data-num="." onclick="imprimir(this)">.</button>
+        <button type="button" class="igual" onclick="operar()">=</button>
+        <button type="button" class="operador" data-num="-" onclick="imprimir(this)">-</button>
+        <button type="button" class="borrado" onclick="borrar()">C</button> 
+
+    </div>
+  </section>
+</body>
+</html>

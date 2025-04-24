@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>   
+<script>
+ 
+function findLongestWord() {
+    var str = document.getElementById('texto').value;
+    var array = str.split(' '); //divide por espacios
+    var palabramayor = "";
+    for(i =0; i < array.length; i++) {
+        if (array[i].length > palabramayor.length){
+            palabramayor = array[i];
+        }
+    }
+    document.getElementById("res").innerHTML = palabramayor;
+}
+
+</script>
+
+</head>
+<body>       
+ <h2>JavaScript Functions</h2>   
+    <p> Mostar la palabra mas larga de las contenidas en un array.</p>
+    <label for="texto">Introduce una serie de palabras y te dare la más larga : </label>
+    <input type="text" id="texto" name="texto"> <br>
+    <button type="button" onclick="findLongestWord()">Palabra mayor</button>
+    <p id="res"></p> 
+</body>
+</html>
