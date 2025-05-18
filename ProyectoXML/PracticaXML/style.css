@@ -1,0 +1,113 @@
+.fondo_inicial {
+    background-image: url('./imagenes_fondo/fondo_brain.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+}
+
+.fondo_ia{
+  background-image: url('./imagenes_fondo/fondo_ia.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.fondo_python {
+  background-image: url('./imagenes_fondo/fondo_python.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.quiz-container {
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: rgb(74, 138, 228,0.7);
+    border-radius: 10px;
+    max-width: 400px;
+    color:whitesmoke
+}
+
+.elec-tiempo{
+  
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+}
+
+.sel, #timer {
+    margin-top:20px;
+    margin-left: 75px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: rgb(74, 138, 228,0.5);
+    border-radius: 10px;
+    color: white
+  
+}
+
+option {
+  background-color: cornflowerblue;
+}
+
+#demo{
+  margin-left: 75px;
+  color:white;
+  background-color:rgb(28, 65, 167,0.7);
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  width: 70%;
+  font-size: 18px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+select {
+    background-color: rgb(28, 65, 167);
+    color: whitesmoke;
+    padding: 6px 10px;
+    margin-left: 0px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 18px;    
+    margin-top:5px;
+    margin-left: 75px;;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#timer {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+strong {
+    font-size: 1.3rem;
+}

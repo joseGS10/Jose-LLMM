@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+<test>
+  <question id="1">
+    <wording>¿Qué es Python?</wording>
+    <choices>
+      <choice correct="yes">Un lenguaje de programación de alto nivel</choice>
+      <choice>Un tipo de serpiente</choice>
+      <choice>Un sistema operativo</choice>
+      <choice>Una base de datos</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>¿Quién creó Python?</wording>
+    <choices>
+      <choice correct="yes">Guido van Rossum</choice>
+      <choice>Linus Torvalds</choice>
+      <choice>Dennis Ritchie</choice>
+      <choice>James Gosling</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>¿Qué símbolo se usa para los comentarios en Python?</wording>
+    <choices>
+      <choice correct="yes">#</choice>
+      <choice>//</choice>
+      <choice>&amp;lt;!-- --&amp;gt;</choice>
+      <choice>/* */</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>¿Cómo se define una función en Python?</wording>
+    <choices>
+      <choice>Usando la palabra clave function</choice>
+      <choice>Usando func()</choice>
+      <choice>Usando lambda sin def</choice>
+      <choice correct="yes">Usando la palabra clave def</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>¿Qué estructura se utiliza para repetir instrucciones?</wording>
+    <choices>
+      <choice>Condicional if</choice>
+      <choice>Clase class</choice>
+      <choice>Importar módulos</choice>
+      <choice correct="yes">Ciclos for y while</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>¿Qué tipo de lenguaje es Python?</wording>
+    <choices>
+      <choice>Compilado</choice>
+      <choice>Binario</choice>
+      <choice>Ensamblador</choice>
+      <choice correct="yes">Interpretado</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>¿Qué función imprime en pantalla en Python?</wording>
+    <choices>
+      <choice correct="yes">print()</choice>
+      <choice>echo()</choice>
+      <choice>display()</choice>
+      <choice>log()</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>¿Qué tipo de dato representa números decimales?</wording>
+    <choices>
+      <choice correct="yes">float</choice>
+      <choice>int</choice>
+      <choice>str</choice>
+      <choice>bool</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>¿Qué operador se usa para la división entera?</wording>
+    <choices>
+      <choice>/</choice>
+      <choice correct="yes">//</choice>
+      <choice>%</choice>
+      <choice>**</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>¿Qué estructura de datos almacena pares clave-valor?</wording>
+    <choices>
+      <choice correct="yes">diccionario (dict)</choice>
+      <choice>lista</choice>
+      <choice>tupla</choice>
+      <choice>conjunto (set)</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>¿Qué palabra clave se usa para manejar excepciones?</wording>
+    <choices>
+      <choice>catch</choice>
+      <choice>handle</choice>
+      <choice correct="yes">try</choice>
+      <choice>rescue</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>¿Qué método convierte una cadena en minúsculas?</wording>
+    <choices>
+      <choice correct="yes">lower()</choice>
+      <choice>min()</choice>
+      <choice>downcase()</choice>
+      <choice>tolower()</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>¿Qué operador se usa para concatenar cadenas?</wording>
+    <choices>
+      <choice>&amp;</choice>
+      <choice>*</choice>
+      <choice>#</choice>
+      <choice correct="yes">+</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>¿Qué función devuelve la longitud de una lista?</wording>
+    <choices>
+      <choice>length()</choice>
+      <choice>count()</choice>
+      <choice>size()</choice>
+      <choice correct="yes">len()</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>¿Qué palabra clave se usa para definir una clase?</wording>
+    <choices>
+      <choice correct="yes">class</choice>
+      <choice>def</choice>
+      <choice>object</choice>
+      <choice>struct</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>¿Cuál es el valor booleano de una lista vacía?</wording>
+    <choices>
+      <choice correct="yes">False</choice>
+      <choice>True</choice>
+      <choice>None</choice>
+      <choice>Null</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>¿Cómo se importa un módulo en Python?</wording>
+    <choices>
+      <choice>include</choice>
+      <choice correct="yes">import</choice>
+      <choice>require</choice>
+      <choice>load</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>¿Cuál es el valor de 2 ** 3 en Python?</wording>
+    <choices>
+      <choice>6</choice>
+      <choice correct="yes">8</choice>
+      <choice>9</choice>
+      <choice>7</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>¿Cómo se accede al último elemento de una lista?</wording>
+    <choices>
+      <choice correct="yes">lista[-1]</choice>
+      <choice>lista[end]</choice>
+      <choice>lista[length]</choice>
+      <choice>lista.last()</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>¿Qué tipo de bucle se usa para iterar un número fijo de veces?</wording>
+    <choices>
+      <choice correct="yes">for</choice>
+      <choice>while</choice>
+      <choice>loop</choice>
+      <choice>repeat</choice>
+    </choices>
+  </question>
+</test>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE test [
+  <!ELEMENT test (question+)>
+  <!ELEMENT question (wording,choices)>
+  <!ELEMENT wording (#PCDATA)>
+  <!ELEMENT choices (choice+)>
+  <!ELEMENT choice (#PCDATA)>
+  <!ATTLIST question id CDATA #REQUIRED>
+  <!ATTLIST choice correct (yes|no) 'no'>
+]>
+
+<test>
+  <question id="1">
+    <wording>¿Qué es la inteligencia artificial (IA)?</wording>
+    <choices>
+      <choice>Una red social avanzada</choice>
+      <choice correct="yes">Una rama de la informática que simula la inteligencia humana</choice>
+      <choice>Un tipo de hardware de computadoras</choice>
+      <choice>Un videojuego interactivo</choice>
+    </choices>
+  </question>
+  <question id="2">
+    <wording>¿Quién es considerado el padre de la inteligencia artificial?</wording>
+    <choices>
+      <choice>Alan Turing</choice>
+      <choice>Marvin Minsky</choice>
+      <choice>Geoffrey Hinton</choice>
+      <choice correct="yes">John McCarthy</choice>
+    </choices>
+  </question>
+  <question id="3">
+    <wording>¿Cuál de los siguientes NO es un tipo de aprendizaje automático?</wording>
+    <choices>
+      <choice correct="yes">Aprendizaje pasivo</choice>
+      <choice>Aprendizaje supervisado</choice>
+      <choice>Aprendizaje no supervisado</choice>
+      <choice>Aprendizaje por refuerzo</choice>
+    </choices>
+  </question>
+  <question id="4">
+    <wording>¿Qué es un modelo de lenguaje como ChatGPT?</wording>
+    <choices>
+      <choice correct="yes">Un modelo de IA entrenado para comprender y generar texto</choice>
+      <choice>Un traductor automático</choice>
+      <choice>Un asistente físico de voz</choice>
+      <choice>Una base de datos</choice>
+    </choices>
+  </question>
+  <question id="5">
+    <wording>¿Qué es una red neuronal artificial?</wording>
+    <choices>
+      <choice>Una conexión entre computadoras</choice>
+      <choice correct="yes">Un modelo inspirado en el cerebro humano</choice>
+      <choice>Una red social privada</choice>
+      <choice>Un lenguaje de programación</choice>
+    </choices>
+  </question>
+  <question id="6">
+    <wording>¿Qué técnica de IA se basa en recompensas para aprender?</wording>
+    <choices>
+      <choice correct="yes">Aprendizaje por refuerzo</choice>
+      <choice>Aprendizaje supervisado</choice>
+      <choice>Regresión lineal</choice>
+      <choice>Árboles de decisión</choice>
+    </choices>
+  </question>
+  <question id="7">
+    <wording>¿Qué lenguaje es comúnmente usado en proyectos de IA?</wording>
+    <choices>
+      <choice>CSS</choice>
+      <choice correct="yes">Python</choice>
+      <choice>HTML</choice>
+      <choice>PHP</choice>
+    </choices>
+  </question>
+  <question id="8">
+    <wording>¿Qué significa 'machine learning'?</wording>
+    <choices>
+      <choice correct="yes">Aprendizaje automático</choice>
+      <choice>Máquina que enseña</choice>
+      <choice>Modelo preentrenado</choice>
+      <choice>Lenguaje de código abierto</choice>
+    </choices>
+  </question>
+  <question id="9">
+    <wording>¿Cuál es una preocupación ética de la IA?</wording>
+    <choices>
+      <choice correct="yes">Desempleo por automatización</choice>
+      <choice>Mejorar la eficiencia</choice>
+      <choice>Aumentar la productividad</choice>
+      <choice>Reducir errores humanos</choice>
+    </choices>
+  </question>
+  <question id="10">
+    <wording>¿Qué es el 'deep learning'?</wording>
+    <choices>
+      <choice>Un sistema de control industrial</choice>
+      <choice>Un juego de realidad virtual</choice>
+      <choice>Un buscador de internet</choice>
+      <choice correct="yes">Una técnica de IA basada en redes neuronales profundas</choice>
+    </choices>
+  </question>
+  <question id="11">
+    <wording>¿Cuál de los siguientes es un asistente virtual impulsado por IA?</wording>
+    <choices>
+      <choice>Excel</choice>
+      <choice>Paint</choice>
+      <choice>Notepad</choice>
+      <choice correct="yes">Siri</choice>
+    </choices>
+  </question>
+  <question id="12">
+    <wording>¿Qué empresa desarrolló AlphaGo?</wording>
+    <choices>
+      <choice correct="yes">DeepMind</choice>
+      <choice>OpenAI</choice>
+      <choice>Meta</choice>
+      <choice>IBM</choice>
+    </choices>
+  </question>
+  <question id="13">
+    <wording>¿Qué tipo de IA puede razonar y aprender de forma autónoma como un humano?</wording>
+    <choices>
+      <choice>IA débil</choice>
+      <choice>IA supervisada</choice>
+      <choice correct="yes">IA general</choice>
+      <choice>IA reactiva</choice>
+    </choices>
+  </question>
+  <question id="14">
+    <wording>¿Cuál es un ejemplo de uso de IA en salud?</wording>
+    <choices>
+      <choice correct="yes">Diagnóstico por imagen médica</choice>
+      <choice>Impresión de documentos</choice>
+      <choice>Gestión de nómina</choice>
+      <choice>Compra de mobiliario</choice>
+    </choices>
+  </question>
+  <question id="15">
+    <wording>¿Qué algoritmo se utiliza comúnmente para clasificación en IA?</wording>
+    <choices>
+      <choice>Búsqueda binaria</choice>
+      <choice>Quicksort</choice>
+      <choice correct="yes">K-vecinos más cercanos (KNN)</choice>
+      <choice>Merge sort</choice>
+    </choices>
+  </question>
+  <question id="16">
+    <wording>¿Qué significa NLP en el contexto de IA?</wording>
+    <choices>
+      <choice correct="yes">Procesamiento del lenguaje natural</choice>
+      <choice>Nuevo lenguaje de programación</choice>
+      <choice>Neuro Lenguaje Profesional</choice>
+      <choice>Nodo Lógico Primario</choice>
+    </choices>
+  </question>
+  <question id="17">
+    <wording>¿Qué se necesita para entrenar un modelo de IA?</wording>
+    <choices>
+      <choice correct="yes">Datos</choice>
+      <choice>Un motor de búsqueda</choice>
+      <choice>Un antivirus</choice>
+      <choice>Un servidor de correo</choice>
+    </choices>
+  </question>
+  <question id="18">
+    <wording>¿Cuál es una limitación común de los sistemas de IA actuales?</wording>
+    <choices>
+      <choice correct="yes">Falta de sentido común</choice>
+      <choice>Velocidad de procesamiento</choice>
+      <choice>Memoria insuficiente</choice>
+      <choice>Interfaz gráfica</choice>
+    </choices>
+  </question>
+  <question id="19">
+    <wording>¿Qué hace un chatbot con IA?</wording>
+    <choices>
+      <choice correct="yes">Conversar automáticamente con usuarios</choice>
+      <choice>Buscar archivos en disco</choice>
+      <choice>Ejecutar videojuegos</choice>
+      <choice>Codificar software</choice>
+    </choices>
+  </question>
+  <question id="20">
+    <wording>¿Qué empresa creó GPT-4?</wording>
+    <choices>
+      <choice>Google</choice>
+      <choice>Apple</choice>
+      <choice>Amazon</choice>
+      <choice correct="yes">OpenAI</choice>
+    </choices>
+  </question>
+</test>
