@@ -72,5 +72,5 @@ Repositorio con los temas y ejercicios
 
 | Ejercicio | Descripción |
 | --------- | ----------- |
-| [PracticaXML](PracticaXML/PracticaXML) | página web con XML. Temática: Quiz |
+| [PracticaXML](ProyectoXML/PracticaXML) | página web con XML. Temática: Quiz |
 
