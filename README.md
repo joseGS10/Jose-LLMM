@@ -67,3 +67,10 @@ Repositorio con los temas y ejercicios
 | [DOM_Ejercicio2](TEMA3.JavaScript/DOMejercicio2) | Mediante el DOM Crear una imagen y agregarla a un div |
 | [DOM_Ejercicio3](TEMA3.JavaScript/DOMejercicio3) | Eliminar los elementos de una lista mediante el DOM |
 | [DOM_Ejercicio4](TEMA3.JavaScript/DOMejercicio4) | Visionar elementos HTML de una web a través de la consola de comandos |
+
+## Proyecto XML
+
+| Ejercicio | Descripción |
+| --------- | ----------- |
+| [PracticaXML](PracticaXML/PracticaXML) | página web con XML. Temática: Quiz |
+
