@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The XMLHttpRequest Object</h2>
+<p id="demo"></p>
+ 
+<script>
+const xhttp = new XMLHttpRequest();
+xhttp.onload = function() {
+  const xmlDoc = this.responseXML;
+  const x = xmlDoc.getElementsByTagName("CD"); 
+  let txt = "", title= "", artist = ""; 
+  for (let i = 0; i < x.length; i++) { 
+    title = x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue; 
+    price = x[i].getElementsByTagName("PRICE")[0].childNodes[0].nodeValue; 
+    company = x[i].getElementsByTagName("COMPANY")[0].childNodes[0].nodeValue;
+    txt = txt + title + " - (" + price + "€) " + company + "<br>"; 
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+xhttp.open("GET", "cd_catalog.xml");
+xhttp.send();
+</script>
+
+</body>
+</html>
