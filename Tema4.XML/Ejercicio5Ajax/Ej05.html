@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>INFORMACIÓN DE LA NASA</title>
+  <style>
+    #imagen {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border: 1px solid #e40707;
+    }
+    button {
+      margin: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Imagen del día - NASA</h2>
+
+<button onclick="mostrarFecha()">Mostrar fecha</button>
+<button onclick="mostrarExplicacion()">Mostrar explicación</button>
+<button onclick="mostrarURL()">Mostrar URL</button>
+<button onclick="mostrarImagen()">Mostrar imagen</button><br>
+
+<p><strong>Fecha:</strong> <span id="fecha"></span></p>
+<p><strong>Explicación:</strong> <span id="explicacion"></span></p>
+<p><strong>URL:</strong> <a id="url" href="" target="_blank"></a></p>
+
+<img id="imagen" src="" alt="Imagen del día">
+
+<script src="Ej05.js"></script>
+
+</body>
+</html>
