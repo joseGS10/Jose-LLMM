@@ -73,7 +73,7 @@ Repositorio con los temas y ejercicios
 | Ejercicio | Descripción |
 | --------- | ----------- |
 | [Ejercicio1XML_DOM](Tema4.XML/Ejercicio1XML_DOM/ej01.pdf) | Ejercicio1 XML DOM |
-| [Ejercicio2XML_DOM](Tema4.XML_DOM/Ejercicio2XML_DOM) |
+| [Ejercicio2XML_DOM](Tema4.XML/Ejercicio2XML_DOM) | Ejercicio2 XML DOM |
 | [Ejercicio3XML_DOM](Tema4.XML_DOM/Ejercicio3XML_DOM) |
 
 
