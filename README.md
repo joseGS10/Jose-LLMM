@@ -52,7 +52,7 @@ Repositorio con los temas y ejercicios
 
 | Ejercicio | Descripción |
 | --------- | ----------- |
-| [Ejercicio 1](TEMA3.JavaScript/ejercicio1) | un primer ejemplo de uso de javascript |
+| [Ejercicio_1](TEMA3.JavaScript/ejercicio1) | un primer ejemplo de uso de javascript |
 | [Ejercicio_2](TEMA3.JavaScript/ejercicio2) | un segundo ejemplo de javascript |
 | [Ejercicio_3](TEMA3.JavaScript/ejercicio3) | botones y select para mostrar imagenes de coches y spidermans|
 | [Juego_bombillas](TEMA3.JavaScript/juego_bombillas) | juego apaga bombillas |
@@ -67,6 +67,15 @@ Repositorio con los temas y ejercicios
 | [DOM_Ejercicio2](TEMA3.JavaScript/DOMejercicio2) | Mediante el DOM Crear una imagen y agregarla a un div |
 | [DOM_Ejercicio3](TEMA3.JavaScript/DOMejercicio3) | Eliminar los elementos de una lista mediante el DOM |
 | [DOM_Ejercicio4](TEMA3.JavaScript/DOMejercicio4) | Visionar elementos HTML de una web a través de la consola de comandos |
+
+## TEMA 4 XML
+
+| Ejercicio | Descripción |
+| --------- | ----------- |
+| [Ejercicio1XML_DOM](Tema4.XML_DOM/Ejercicio1XML_DOM) |
+| [Ejercicio2XML_DOM](Tema4.XML_DOM/Ejercicio2XML_DOM) |
+| [Ejercicio3XML_DOM](Tema4.XML_DOM/Ejercicio3XML_DOM) |
+
 
 ## Proyecto XML
 
