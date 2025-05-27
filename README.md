@@ -74,7 +74,12 @@ Repositorio con los temas y ejercicios
 | --------- | ----------- |
 | [Ejercicio1XML_DOM](Tema4.XML/Ejercicio1XML_DOM/ej01.pdf) | Ejercicio1 XML DOM |
 | [Ejercicio2XML_DOM](Tema4.XML/Ejercicio2XML_DOM) | Ejercicio2 XML DOM |
-| [Ejercicio3XML_DOM](Tema4.XML_DOM/Ejercicio3XML_DOM) |
+| [Ejercicio3XML_DOM](Tema4.XML/Ejercicio3XML_DOM) | Ejercicio3 XML DOM |
+| [Ejercicio1Ajax](Tema4.XML/Ejercicio1Ajax) | Ejercicio1 Ajax |
+| [Ejercicio2AJAX](TEMA4.xml/Ejercicio2Ajax) | Ejercicio2 Ajax |
+| [Ejercicio2AJAX](TEMA4.xml/Ejercicio3Ajax) | Ejercicio3 Ajax |
+| [Ejercicio2AJAX](TEMA4.xml/Ejercicio4Ajax) | Ejercicio4 Ajax |
+| [Ejercicio2AJAX](TEMA4.xml/Ejercicio5Ajax) | Ejercicio5 Ajax |
 
 
 ## Proyecto XML
