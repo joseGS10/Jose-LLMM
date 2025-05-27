@@ -76,10 +76,10 @@ Repositorio con los temas y ejercicios
 | [Ejercicio2XML_DOM](Tema4.XML/Ejercicio2XML_DOM) | Ejercicio2 XML DOM |
 | [Ejercicio3XML_DOM](Tema4.XML/Ejercicio3XML_DOM) | Ejercicio3 XML DOM |
 | [Ejercicio1Ajax](Tema4.XML/Ejercicio1Ajax) | Ejercicio1 Ajax |
-| [Ejercicio2Ajax](Tema4.xml/Ejercicio2Ajax) | Ejercicio2 Ajax |
-| [Ejercicio3Ajax](Tema4.xml/Ejercicio3Ajax) | Ejercicio3 Ajax |
-| [Ejercicio4Ajax](Tema4.xml/Ejercicio4Ajax) | Ejercicio4 Ajax |
-| [Ejercicio5Ajax](Tema4.xml/Ejercicio5Ajax) | Ejercicio5 Ajax |
+| [Ejercicio2Ajax](Tema4.XML/Ejercicio2Ajax) | Ejercicio2 Ajax |
+| [Ejercicio3Ajax](Tema4.XML/Ejercicio3Ajax) | Ejercicio3 Ajax |
+| [Ejercicio4Ajax](Tema4.XML/Ejercicio4Ajax) | Ejercicio4 Ajax |
+| [Ejercicio5Ajax](Tema4.XML/Ejercicio5Ajax) | Ejercicio5 Ajax |
 
 
 ## Proyecto XML
