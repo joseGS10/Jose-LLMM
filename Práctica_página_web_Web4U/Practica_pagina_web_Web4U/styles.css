@@ -1,0 +1,195 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background-color: #f6b57f;
+  padding: 20px;
+  text-align: center;
+
+  display: flex;
+  align-items: center; /* Alinea verticalmente la imagen y el texto */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  gap: 15px; /* Espacio entre la imagen y el texto */
+}
+
+.header-content {
+  display: flex;
+  align-items: center; /* Alinea verticalmente la imagen y el texto */
+  justify-content: center; /* Centra el contenido horizontalmente */
+  gap: 15px; /* Espacio entre la imagen y el texto */
+ }
+ 
+ .logo-header {
+   width: 144px;
+   height: 84px;
+ }
+
+/* estilos para la barra horizontal */
+.nav-horizontal {
+  position: fixed;
+  width: 100%;
+  top: 124px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #603404;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.activo) {
+  background-color: rgb(141, 219, 211);
+}
+
+.activo {
+  background-color: rgb(13, 150, 162);
+}
+
+
+/* estilos para la barra vertical */
+.nav-vertical {
+  position: fixed;
+  top: 170px;;
+  width: 190px;
+  padding: 0px;
+  background-color: #f4f4f4;
+}
+
+.nav-vertical ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav-vertical li {
+  float:none;
+  margin: 10px 0;
+}
+
+/* disposicion de los logos en index */
+.contenedor-logos {
+  position: fixed;
+  top: 171px;
+  left: 0;
+  Width:100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #f4f4f4;
+  flex-wrap: wrap;
+}
+
+.logo-item {
+  flex: 1;
+  max-width: 200px;
+  margin: 20px;
+}
+
+.logo-item img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s;
+}
+
+.logo-item img:hover {
+  transform: scale(1.1);
+}
+
+/* contenido de las etiquetas a mostrar */
+.contenido-principal {
+  margin-left: 160px; /* Deja espacio a la derecha de la barra fija */
+  margin-top: 135px;
+  padding: 20px;
+}
+
+/* contenido entre logos y footer */
+.llamada-accion {
+  margin-top: 340px; /* espacio después de los logos */
+  margin-bottom: 80px; /* espacio antes del footer */
+  padding: 40px 20px;
+  background-color: #f6b57f;
+  text-align: center;
+  border: 5px solid #ccc;
+}
+
+.llamada-accion h2 {
+  font-size: 24px;
+  color: #7b4307;
+}
+
+.llamada-accion p {
+  font-size: 20px;
+}
+
+/* formato etiqueta */
+.bloque-etiqueta {
+  scroll-margin-top: 200px; 
+  margin: 20px;
+  margin-right: 0%;
+  padding: 20px;
+  background-color: #edd1b8;
+  border-left: 4px solid #0b6fa4;
+}
+
+.ejemplo {
+  border: 1px solid #aaa;
+  background-color: #f5f5f5;
+  padding: 10px;
+  margin: 15px 0;
+}
+
+.ejemplo pre {
+  background-color: #e0e0e0;
+  padding: 8px;
+  overflow-x: auto;
+}
+
+.ejemplo img {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+/* footer presente en todas las paginas */
+.footer {
+  background-color: #603404;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ 
+  font-size: 14px;
+}
+
+.language-switcher {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  color: white;
+}
+.language-switcher a {
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+}

@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web4U - SVG</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Header similar to index -->
+<header class="header">
+   <img src="logos/programacion-web.webp" alt="Home Logo" class="logo-header" />
+   <h1>SVG Section - Web4U</h1>
+   <img src="logos/logo svg.png" alt="SVG Logo" style="width:44px; height:44px">
+</header>
+
+<!-- Horizontal navigation bar -->
+<nav class="nav-horizontal">
+  <ul>
+    <li><a href="index-en.html" title="Go to Main Page">HOME</a></li>
+    <li><a href="html-en.html" title="HTML Section">HTML</a></li>
+    <li><a class="activo" href="svg.html" title="SVG Section">SVG</a></li>
+    <li><a href="css-en.html" title="CSS Section">CSS</a></li>
+  </ul>
+</nav>
+
+<!-- Main container with vertical menu + content -->
+<div class="contenedor-principal">
+
+   <!-- Vertical menu with 5 SVG tags -->
+   <div class="nav-vertical">
+      <ul>
+        <li><a href="svg" title="SVG Definition">SVG</a></li>
+        <li><a href="#etiqueta-svg" title="svg tag">&lt;svg&gt; Tag</a></li>
+        <li><a href="#etiqueta-circle" title="circle tag">&lt;circle&gt; Tag</a></li>
+        <li><a href="#etiqueta-rect" title="rect tag">&lt;rect&gt; Tag</a></li>
+        <li><a href="#etiqueta-line" title="line tag">&lt;line&gt; Tag</a></li>
+        <li><a href="#etiqueta-ellipse" title="ellipse tag">&lt;ellipse&gt; Tag</a></li>
+      </ul>
+   </div>
+
+   <!-- Main content -->
+    <div class="contenido-principal">
+      <div id="svg" class="bloque-etiqueta">
+        <h2>SVG</h2>
+        <pre>
+            SVG, or Scalable Vector Graphics, is an XML-based file format for two-dimensional vector images, which allows scaling without quality loss.
+            Unlike raster formats like PNG or JPG, SVG uses mathematical descriptions to define shapes and lines, making it ideal for logos,
+            icons, and illustrations that need to adapt to different sizes and resolutions.
+            
+            Main features of SVG:
+            
+            <b>Scalability</b>
+            SVG allows images to be resized without affecting quality, which is crucial for responsive websites.
+            
+            <b>Text-based</b>
+            SVG uses XML code, meaning the files are textual and can be edited with text editors or vector design software.
+        
+            <b>Small file size</b>:
+            Typically, SVG files are smaller than their raster equivalents, contributing to faster web page loading times.
+
+            <b>Browser compatibility</b>:
+            Most modern browsers support SVG, ensuring images display correctly across platforms.
+
+            <b>Editing</b>:
+            SVG allows easy editing of the XML code, which facilitates image manipulation and modification.
+
+            Advantages of using SVG in web design:
+            
+            <b>Improves website performance</b>:
+            Smaller SVG files and the ability to scale without quality loss contribute to a better user experience and faster loading times.
+
+            <b>Adaptability</b>:
+            SVG adapts to different screen resolutions without compromising image quality, which is essential for responsive websites.
+
+            <b>SEO</b>:
+            Since SVG files are based on XML code, search engines can read the textual content of images, helping improve website visibility.
+
+            <b>Animations</b>:
+            SVG supports animations and visual effects, making it a versatile option for modern web designs.
+
+            In summary, SVG is a versatile and efficient image format offering numerous advantages in web design, especially in terms of scalability, performance, and adaptability 
+            to different devices and resolutions.
+        </pre>
+      </div>
+
+      <!-- <svg> tag container -->
+      <div id="etiqueta-svg" class="bloque-etiqueta">
+        <h2>Tag <strong>&lt;svg&gt;</strong></h2>
+
+        <!-- Explanation -->
+        <p>The <strong>&lt;svg&gt;</strong> tag is used as a container for scalable vector graphics. Inside it, you can place other tags like <b>&lt;circle&gt;</b>, <b>&lt;rect&gt;</b>, <b>&lt;line&gt;</b>, etc.</p>
+
+        <!-- Example -->
+        <div class="ejemplo">
+          <p><strong>Example:</strong></p>
+          <pre>
+            <b>&lt;svg</b> width="100" height="100"<b>&gt;</b>
+              &lt;circle cx="50" cy="50" r="40" fill="red" /&gt;
+            <b>&lt;/svg&gt;</b>
+            <p>Here we define a container and place a red-filled circle inside it.</p>
+          </pre>
+          <p>Result in browser:</p>
+          <div style="border: 3px solid blue; padding: 15px; width:37%">
+            <svg width="100" height="100">
+              <circle cx="50" cy="50" r="40" fill="red" />
+            </svg>
+          </div>
+          <p>Screenshot from browser</p>
+          <img src="imagenes/resultado-svg.png" alt="Example result for &lt;svg&gt;">
+        </div>
+
+        <!-- Links -->
+        <p>
+          More information: 
+          <a href="https://www.w3schools.com/graphics/svg_intro.asp" target="_blank">W3Schools</a> |
+          <a href="pdfs/svg.pdf" download>Download PDF</a>
+        </p>
+      </div>
+
+     <!-- <circle> tag container -->
+     <div id="etiqueta-circle" class="bloque-etiqueta">
+        <h2>Tag <strong>&lt;circle&gt;</strong></h2>
+
+        <!-- Explanation -->
+        <p>The <strong>&lt;circle&gt;</strong> tag is used inside SVG to draw a circle.</p>
+        <p>Some of the attributes it can include are:</p>
+        <p>The <b>r</b> attribute is mandatory and defines the radius of the circle.</p>
+        <p>The <b>(cx, cy)</b> attributes are optional and specify the coordinates for the circle’s center. If omitted, the center defaults to (0,0).</p>
+        <p>The <b>fill</b> attribute fills the circle with the assigned color.</p>
+
+        <!-- Example -->
+        <div class="ejemplo">
+          <p><strong>Example:</strong></p>
+          <pre>
+            &lt;svg width="100" height="100"&gt;
+              <b>&lt;circle cx="50" cy="50" r="40" fill="blue" /&gt;</b>
+            &lt;/svg&gt;
+          </pre>
+          <p>Result in browser:</p>
+          <div style="border: 3px solid blue; padding: 15px; width:37%">
+            <svg width="100" height="100">
+              <circle cx="50" cy="50" r="40" fill="blue" />
+            </svg>
+          </div>
+          <p>Screenshot from browser</p>
+          <img src="imagenes/resultado-circle.png" alt="Example result for &lt;circle&gt;">
+        </div>
+
+        <!-- Links -->
+        <p>
+          More information: 
+          <a href="https://www.w3schools.com/graphics/svg_circle.asp" target="_blank">W3Schools</a> |
+          <a href="pdfs/circle.pdf" download>Download PDF</a>
+        </p>
+     </div>
+
+     <!-- <rect> tag container -->
+     <div id="etiqueta-rect" class="bloque-etiqueta">
+        <h2>Tag <strong>&lt;rect&gt;</strong></h2>
+        
+        <!-- Explanation -->
+        <p>The <strong>&lt;rect&gt;</strong> tag is used to draw rectangles or squares in SVG.</p>
+        <p>The mandatory attributes are <b>width</b> and <b>height</b>, which define the rectangle’s width and height.</p>
+
+        <!-- Example -->
+        <div class="ejemplo">
+          <p><strong>Example:</strong></p>
+          <pre>
+            &lt;svg width="120" height="100"&gt;
+              <b>&lt;rect width="100" height="80" fill="green" /&gt;</b>
+            &lt;/svg&gt;
+          </pre>
+          <p>Result in browser:</p>
+          <div style="border: 3px solid blue; padding: 15px; width:37%">
+            <svg width="120" height="100">
+              <rect width="100" height="80" fill="green" />
+            </svg>
+          </div>
+          <p>Screenshot from browser</p>
+          <img src="imagenes/resultado-rect.png" alt="Example result for &lt;rect&gt;">
+        </div>
+
+        <!-- Links -->
+        <p>
+          More information: 
+          <a href="https://www.w3schools.com/graphics/svg_rect.asp" target="_blank">W3Schools</a> |
+          <a href="pdfs/rect.pdf" download>Download PDF</a>
+        </p>
+      </div>
+
+      <!-- <line> tag container -->
+      <div id="etiqueta-line" class="bloque-etiqueta">
+          <h2>Tag <strong>&lt;line&gt;</strong></h2>
+
+          <!-- Explanation -->
+          <p>The <strong>&lt;line&gt;</strong> tag is used to draw a straight line inside an SVG.</p>
+          <p>Required attributes include:</p>
+          <p><b>x1</b> and <b>y1</b> for the starting coordinates.</p>
+          <p><b>x2</b> and <b>y2</b> for the ending coordinates.</p>
+          
+          <!-- Example -->
+          <div class="ejemplo">
+            <p><strong>Example:</strong></p>
+            <pre>
+               &lt;svg width="100" height="100"&gt;
+                  <b>&lt;line x1="0" y1="0" x2="100" y2="100" stroke="black" stroke-width="2" /&gt;</b>
+               &lt;/svg&gt;
+            </pre>
+            <p>Result in browser:</p>
+            <div style="border: 3px solid blue; padding: 15px; width:37%">
+              <svg width="100" height="100">
+                <line x1="0" y1="0" x2="100" y2="100" stroke="black" stroke-width="2" />
+              </svg>
+            </div>
+            <p>Screenshot from browser</p>
+            <img src="imagenes/resultado-line.png" alt="Example result for &lt;line&gt;">
+          </div>
+
+          <!-- Links -->
+          <p>
+            More information: 
+            <a href="https://www.w3schools.com/graphics/svg_line.asp" target="_blank">W3Schools</a> |
+            <a href="pdfs/line.pdf" download>Download PDF</a>
+          </p>
+        </div>
+
+      <!-- <ellipse> tag container -->
+      <div id="etiqueta-ellipse" class="bloque-etiqueta">
+        <h2>Tag <strong>&lt;ellipse&gt;</strong></h2>
+
+        <!-- Explanation -->
+        <p>The <strong>&lt;ellipse&gt;</strong> tag is used to draw an ellipse or a squashed circle.</p>
+        <p>This tag is closely related to the <b>&lt;circle&gt;</b> tag.</p>
+        <p>To define the ellipse's radius, two attributes are required:</p>
+        <p><b>rx</b> defines the horizontal radius and <b>ry</b> the vertical radius.</p>
+        <p><b>cx</b> and <b>cy</b> define the center coordinates of the ellipse.</p>
+
+        <!-- Example -->
+        <div class="ejemplo">
+          <p><strong>Example:</strong></p>
+          <pre>
+             &lt;svg width="200" height="100"&gt;
+               <b>&lt;ellipse cx="100" cy="50" rx="80" ry="40" fill="purple" /&gt;</b>
+             &lt;/svg&gt;
+          </pre>
+          <p>Result in browser:</p>
+          <div style="border: 3px solid blue; padding: 15px; width:37%">
+            <svg width="200" height="100">
+              <ellipse cx="100" cy="50" rx="80" ry="40" fill="purple" />
+            </svg>
+          </div>
+          <p>Screenshot from browser</p>
+          <img src="imagenes/resultado-ellipse.png" alt="Example result for &lt;ellipse&gt;">
+        </div>
+
+         <!-- Links -->
+        <p>
+          More information: 
+          <a href="https://www.w3schools.com/graphics/svg_ellipse.asp" target="_blank">W3Schools</a> |
+          <a href="pdfs/ellipse.pdf" download>Download PDF</a>
+        </p>
+      </div>   
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Web4U - All rights reserved. Created by Josuaburgui</p>
+</footer>
+</body>
+</html>

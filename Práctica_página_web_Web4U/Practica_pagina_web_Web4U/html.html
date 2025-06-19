@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web4U - HTML</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Encabezado similar al index -->
+   <header class="header">
+      <img src="logos/programacion-web.webp" alt="Logo Inicio" class="logo-header" />
+      <h1>Sección HTML - Web4U</h1>
+      <img src="logos/icons8-html-5-96.png" alt="Logo HTML" style="width:44px; height:44px">
+   </header>
+
+  <!-- Barra navegación horizontal -->
+  <nav class="nav-horizontal">
+    <ul>
+      <li><a href="index.html" title="Ir a la Página Principal">HOME</a></li>
+      <li><a class="activo" href="html.html" title="Sección HTML">HTML</a></li>
+      <li><a href="svg.html" title="Sección SVG">SVG</a></li>
+      <li><a href="css.html" title="Sección CSS">CSS</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contenedor principal: vertical + contenido -->
+  <div class="contenedor-principal">
+
+    <!-- Barra de navegación vertical -->
+    <nav class="nav-vertical">
+      <ul>
+        <li><a href="#html" title="Definición HTML">HTML</a></li>
+        <li><a href="#etiqueta-p" title="Etiqueta &lt;p&gt;">Etiqueta &lt;p&gt;</a></li>
+        <li><a href="#etiqueta-a" title="Etiqueta &lt;a&gt;">Etiqueta &lt;a&gt;</a></li>
+        <li><a href="#etiqueta-img" title="Etiqueta &lt;img&gt;">Etiqueta &lt;img&gt;</a></li>
+        <li><a href="#etiqueta-div" title="Etiqueta &lt;div&gt;">Etiqueta &lt;div&gt;</a></li>
+        <li><a href="#etiqueta-table" title="Etiqueta &lt;table&gt;">Etiqueta &lt;table&gt;</a></li>
+      </ul>
+    </nav>
+
+    <!-- Contenido principal -->
+    <div class="contenido-principal">
+      <div id="html" class="bloque-etiqueta">
+        <h2>HTML</h2>
+        <pre>
+          HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web.
+          Define la estructura y el contenido de una página web mediante etiquetas que indican a los navegadores cómo mostrar el texto, imágenes, enlaces y otros elementos multimedia. 
+          Es fundamental para la creación de cualquier sitio web. 
+
+          <b>Estructura</b>
+          HTML proporciona el esqueleto de la página web, organizando el contenido en diferentes secciones y jerarquías. 
+          
+          <b>Contenido</b>
+          Permite incluir texto, imágenes, enlaces, videos y otros elementos multimedia. 
+          
+          <b>Etiquetas</b>
+          HTML utiliza etiquetas (como &lt;p&gt;, &lt;h1&gt;, &lt;img&gt;, etc.) para definir estos elementos y cómo deben ser interpretados por el navegador. 
+          
+          <b>No es un lenguaje de programación</b>
+          HTML no realiza cálculos ni maneja lógica, solo define la estructura y el contenido de la página. 
+          
+          <b>Base de la web</b>
+          HTML es la base de casi todas las páginas web que vemos en internet, aunque a menudo se combina con CSS y JavaScript para la presentación y la interactividad. 
+          
+          En resumen, HTML es el lenguaje fundamental para construir la estructura y el contenido de las páginas web, permitiendo a los navegadores interpretarlas correctamente. 
+          </pre>
+      </div>
+
+    
+      <!-- Contenedor etiqueta <p> -->
+      <div id="etiqueta-p" class="bloque-etiqueta">
+        <h2>Etiqueta <strong>&lt;p&gt;</strong></h2>
+
+        <!-- Explicación -->
+        <p>La etiqueta <strong>&lt;p&gt;</strong> se utiliza para definir un párrafo. Sirve para estructurar el texto en bloques separados, facilitando la lectura del contenido.</p>
+
+        <!-- Ejemplo -->
+        <div class="ejemplo">
+          <p><strong>Ejemplo:</strong></p>
+          <pre>
+             <b>&lt;p&gt;</b>Este es un párrafo de ejemplo que demuestra el uso básico de la etiqueta p.<b>&lt;/p&gt;</b>
+          </pre>
+          <p>Resultado en el navegador:</p>
+          <div style="border: 3px solid blue; padding: 15px; width:37%">
+             <p>Este es un párrafo de ejemplo que demuestra el uso básico de la etiqueta p.</p>
+          </div>
+          <p>Imagen capturada del navegador</p>
+          <img src="imagenes/resultado-p.png" alt="Resultado del ejemplo de &lt;p&gt;">
+        </div>
+
+        <!-- Enlaces -->
+        <p>
+          Más información: 
+          <a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank" title="Ir a W3Schools">W3Schools</a>
+    |     <a href="pdfs/p.pdf" download title="Descargar PDF">Descargar PDF</a>
+        </p>
+     </div>
+
+
+      <!-- Contenedor etiqueta <a> -->
+      <div id="etiqueta-a" class="bloque-etiqueta">
+        <h2>Etiqueta <strong>&lt;a&gt;</strong></h2>
+
+        <!-- Explicación -->
+        <p>La etiqueta <strong>&lt;a&gt;</strong> se utiliza para crear enlaces o hipervínculos. Permite al usuario acceder a otras páginas web o a recursos como archivos, imágenes, documentos, etc.</p>
+        <p>Dentro de la etiqueta de apertura <strong>&lt;a&gt;</strong> colocaremos:</p>
+        <p><strong>OBLIGATORIO.</strong> El atributo <strong>href</strong> donde se indicará la dirección de la página web o recurso a donde nos llevará cuando cliquemos sobre el enlace </p>
+        <p><strong>OPCIONAL.</strong> El atributo <strong>target</strong> donde la opción <strong>"_black"</strong> nos permite abrir el enlace en una nueva página del navegador.</p>
+        <p>Entre la etiqueta de apertura y de cierre, se coloca el texto que le dará nombre al enlace y es lo que veremos en la WEB,</p>
+        <!-- Ejemplo -->
+        <div class="ejemplo">
+           <p><strong>Ejemplo:</strong></p>
+           <pre>
+              <b>&lt;a href</b>="https://www.w3schools.com" <b>target</b>="_blank"<b>&gt;</b> W3Schools<b>&lt;/a&gt;</b>
+           </pre>
+           <p>Resultado en el navegador:</p>
+           <div style="border: 3px solid blue; padding: 15px; width:37%">
+             <a href="https://www.w3schools.com" target="_blank">Visitar W3Schools</a>
+           </div>
+           <p>Imagen capturada del navegador</p>
+           <img src="imagenes/resultado-a.png" alt="Resultado del ejemplo de &lt;a&gt;">
+        </div>
+
+        <!-- Enlaces -->
+        <p>
+         Más información:
+        <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank" title="Ir a W3Schools">W3Schools</a>
+    |   <a href="pdfs/a.pdf" download title="Descargar PDF">Descargar PDF</a>
+       </p>
+      </div>
+
+      <!-- Contenedor etiqueta <img> -->
+      <div id="etiqueta-img" class="bloque-etiqueta">
+        <h2>Etiqueta <strong>&lt;img&gt;</strong></h2>
+
+        <!-- Explicación -->
+        <p>La etiqueta <strong>&lt;img&gt;</strong> se utiliza para mostrar imágenes en una página web. </p>
+        <P>Requiere al menos el atributo <strong>src</strong> para indicar la ruta de donde se encuentra la imagen almacenada y el atributo <strong>alt</strong> para mostrar un texto alternativo en caso de que la imagen no se pueda mostrar.</p>
+        <p>También aparece en el ejemplo el atributo <strong>width</strong> que hace referencia al tamaño de la imagen</p>
+        <p>Comentar que esta eiqueta no tiene etiqueta de cierre, solo de apertura</p>
+        
+        <!-- Ejemplo -->
+        <div class="ejemplo">
+          <p><strong>Ejemplo:</strong></p>
+          <pre>
+            <b>&lt;img src</b>="logos/IconoHome.png" <b>alt</b>="Logotipo de una casita" width="50"<b>&gt;</b>
+          </pre>
+          <p>Resultado en el navegador:</p>
+          <div style="border: 3px solid blue; padding: 15px; width: 37%;">
+            <img src="logos/IconoHome.png" alt="Logotipo de una casita" width="50">
+          </div>
+          <p>Imagen capturada del navegador</p>
+          <img src="imagenes/resultado-img.png" alt="Captura del resultado del ejemplo de imagen">
+        </div>
+
+        <!-- Enlaces -->
+        <p>
+        Más información:
+        <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank" title="Ir a W3Schools sobre la etiqueta img">W3Schools</a>
+    |   <a href="pdfs/img.pdf" download title="Descargar PDF">Descargar PDF</a>
+        </p>
+      </div>
+
+
+
+      <!-- Contenedor etiqueta <div> -->
+      <div id="etiqueta-div" class="bloque-etiqueta">
+        <h2>Etiqueta <strong>&lt;div&gt;</strong></h2>
+
+      <!-- Explicación -->
+      <p>La etiqueta <strong>&lt;div&gt;</strong> se usa para agrupar contenido y aplicar estilos o scripts a bloques enteros. No tiene un significado semántico específico, pero es muy útil para estructurar páginas web.</p>
+      <p>Se comporta como un contenedor donde se pueden incluir diferentes etiquetas.</p>
+
+      <!-- Ejemplo -->
+      <div class="ejemplo">
+        <p><strong>Ejemplo:</strong></p>
+        <pre>
+          <b>&lt;div</b> style="background-color: #f0f0f0; padding: 10px;"<b>&gt;</b>
+            &lt;p&gt;Este párrafo está dentro de un div con fondo azul claro.&lt;/p&gt;
+            &lt;p&gt;Este imagen tambien está dentro del div con fondo azul claro.&lt;/p&gt;
+            &lt;img src="logos/IconoHome.png" alt="Logotipo de una casita" width="50"&gt;
+          <b>&lt;/div&gt;</b>
+        </pre>
+        <p>Resultado en el navegador:</p>
+        <div style="border: 3px solid blue; padding: 15px; width:37%";>
+          <div style="background-color: #a9bfd0; padding: 10px;">
+            <p>Este párrafo está dentro de un div con fondo azul claro.</p>
+            <p>Este imagen tambien está dentro del div con fondo azul claro.</p>
+            <img src="logos/IconoHome.png" alt="Logotipo de una casita" width="50">
+          </div>
+        </div>
+        <p>Imagen capturada del navegador</p>
+        <img src="imagenes/resultado-div.png" alt="Resultado del ejemplo de div">
+      </div>
+
+      <!-- Enlaces -->
+      <p>
+      Más información:
+      <a href="https://www.w3schools.com/tags/tag_div.asp" target="_blank" title="Ir a W3Schools sobre la etiqueta div">W3Schools</a>
+    | <a href="pdfs/div.pdf" download title="Descargar PDF">Descargar PDF</a>
+      </p>
+     </div>
+
+      
+     <!-- Contenedor etiqueta <table> -->
+     <div id="etiqueta-table" class="bloque-etiqueta">
+        <h2>Etiqueta <strong>&lt;table&gt;</strong></h2>
+
+        <!-- Explicación -->
+        <p>La etiqueta <strong>&lt;table&gt;</strong> se utiliza para crear tablas en HTML. Dentro de una tabla se usan otras etiquetas como <strong>&lt;tr&gt;</strong> (fila), <strong>&lt;th&gt;</strong> (encabezado) y <strong>&lt;td&gt;</strong> (celda de datos).</p>
+        <p>Vamos a tener que usar tantas duplas <strong>&lt;tr&gt;</strong> <strong>&lt;/tr&gt;</strong> como filas queramos que tenga nuestra tabla.</p>
+        <p>El contenido de la etiqueta de encabezado, <strong>&lt;th&gt;</strong> por defecto aparecerá en negrita y centrado dentro de la celda.</p>
+        <p>El contenido de la etiqueta de datos, <strong>&lt;td&gt;</strong> por defecto aparecerá alineado a la izquierda de la celda. </p></p>
+
+        <!-- Ejemplo -->
+        <div class="ejemplo">
+          <p><strong>Ejemplo:</strong></p>
+          <pre>
+            <b>&lt;table</b> border=1 style="width:25%;"<b>&gt;</b>
+              <b>&lt;tr&gt;</b>
+                <b>&lt;th&gt;</b>Nombre<b>&lt;/th&gt;</b>
+                <b>&lt;th&gt;</b>Edad<b>&lt;/th&gt;</b>
+              <b>&lt;/tr&gt;</b>
+              <b>&lt;tr&gt;</b>
+                <b>&lt;td&gt;</b>Ana<b>&lt;/td&gt;</b>
+                <b>&lt;td&gt;</b>25<b>&lt;/td&gt;</b>
+              <b>&lt;/tr&gt;</b>
+            <b>&lt;/table&gt;</b>
+          </pre>
+        <p>Resultado en el navegador:</p>
+        <div style="border: 1px solid #ccc; padding: 10px;">
+          <table border=1 style="width: 25%;">
+            <tr>
+              <th>Nombre</th>
+              <th>Edad</th>
+            </tr>
+            <tr>
+              <td>José</td>
+              <td>51</td>
+            </tr>
+          </table>
+        </div>
+        <img src="imagenes/resultado-table.png" alt="Resultado del ejemplo de tabla HTML">
+        </div>
+
+        <!-- Enlaces -->
+        <p>
+        Más información:
+        <a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank" title="Ir a W3Schools sobre la etiqueta table">W3Schools</a>
+        |
+        <a href="pdfs/table.pdf" download title="Descargar PDF">Descargar PDF</a>
+        </p>
+      </div>
+      
+
+      
+    
+
+<!-- pie de pagina -->
+<footer class="footer">
+  <p>© 2025 Web4U - Todos los derechos reservados. Creado por Josuaburgui</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Web4U - HTML</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Header similar to index -->
+<header class="header">
+  <img src="logos/programacion-web.webp" alt="Home Logo" class="logo-header" />
+  <h1>HTML Section - Web4U</h1>
+  <img src="logos/icons8-html-5-96.png" alt="HTML Logo" style="width:44px; height:44px">
+</header>
+
+<!-- Horizontal navigation bar -->
+<nav class="nav-horizontal">
+  <ul>
+    <li><a href="index-en.html" title="Go to Home Page">HOME</a></li>
+    <li><a class="activo" href="html-en.html" title="HTML Section">HTML</a></li>
+    <li><a href="svg-en.html" title="SVG Section">SVG</a></li>
+    <li><a href="css-en.html" title="CSS Section">CSS</a></li>
+  </ul>
+</nav>
+
+<!-- Main container: vertical + content -->
+<div class="contenedor-principal">
+
+  <!-- Vertical navigation -->
+  <nav class="nav-vertical">
+    <ul>
+      <li><a href="#html" title="HTML Definition">HTML</a></li>
+      <li><a href="#etiqueta-p" title="&lt;p&gt; Tag">&lt;p&gt; Tag</a></li>
+      <li><a href="#etiqueta-a" title="&lt;a&gt; Tag">&lt;a&gt; Tag</a></li>
+      <li><a href="#etiqueta-img" title="&lt;img&gt; Tag">&lt;img&gt; Tag</a></li>
+      <li><a href="#etiqueta-div" title="&lt;div&gt; Tag">&lt;div&gt; Tag</a></li>
+      <li><a href="#etiqueta-table" title="&lt;table&gt; Tag">&lt;table&gt; Tag</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main content -->
+  <div class="contenido-principal">
+
+    <div id="html" class="bloque-etiqueta">
+      <h2>HTML</h2>
+      <pre>
+          HTML (HyperText Markup Language) is the standard language for creating web pages.
+          It defines the structure and content of a web page using tags that tell browsers how to display text, images, links, and other media elements.
+
+          <b>Structure</b>
+          HTML provides the skeleton of the webpage, organizing content into different sections and hierarchies.
+
+          <b>Content</b>
+          It allows including text, images, links, videos, and other multimedia elements.
+
+          <b>Tags</b>
+          HTML uses tags (like &lt;p&gt;, &lt;h1&gt;, &lt;img&gt;, etc.) to define these elements and how they should be interpreted by the browser.
+
+          <b>Not a programming language</b>
+          HTML doesn't perform calculations or logic; it only defines the structure and content of the page.
+
+          <b>Web foundation</b>
+          HTML is the base of almost every website we see on the internet, although it is often combined with CSS and JavaScript for presentation and interactivity.
+
+          In summary, HTML is the fundamental language for building the structure and content of web pages, enabling browsers to interpret them correctly.
+      </pre>
+    </div>
+
+    <!-- <p> tag -->
+    <div id="etiqueta-p" class="bloque-etiqueta">
+      <h2><strong>&lt;p&gt;</strong> Tag</h2>
+      <p>The <strong>&lt;p&gt;</strong> tag is used to define a paragraph. It helps structure text into separate blocks, making content easier to read.</p>
+      <div class="ejemplo">
+        <p><strong>Example:</strong></p>
+        <pre>
+<b>&lt;p&gt;</b>This is a sample paragraph demonstrating basic use of the p tag.<b>&lt;/p&gt;</b>
+        </pre>
+        <p>Browser result:</p>
+        <div style="border: 3px solid blue; padding: 15px; width:37%">
+          <p>This is a sample paragraph demonstrating basic use of the p tag.</p>
+        </div>
+        <p>Screenshot from the browser</p>
+        <img src="imagenes/resultado-p.png" alt="Result of the &lt;p&gt; example">
+      </div>
+      <p>
+        More info:
+        <a href="https://www.w3schools.com/tags/tag_p.asp" target="_blank">W3Schools</a> |
+        <a href="pdfs/p.pdf" download>Download PDF</a>
+      </p>
+    </div>
+
+    <!-- <a> tag -->
+    <div id="etiqueta-a" class="bloque-etiqueta">
+      <h2><strong>&lt;a&gt;</strong> Tag</h2>
+      <p>The <strong>&lt;a&gt;</strong> tag is used to create links or hyperlinks. It allows users to access other websites or resources like files, images, documents, etc.</p>
+      <p><strong>REQUIRED:</strong> The <strong>href</strong> attribute specifies the destination URL of the link.</p>
+      <p><strong>OPTIONAL:</strong> The <strong>target</strong> attribute with value <strong>"_blank"</strong> opens the link in a new browser tab.</p>
+      <p>The clickable text appears between the opening and closing tags.</p>
+      <div class="ejemplo">
+        <p><strong>Example:</strong></p>
+        <pre>
+<b>&lt;a href</b>="https://www.w3schools.com" <b>target</b>="_blank"<b>&gt;</b> W3Schools<b>&lt;/a&gt;</b>
+        </pre>
+        <p>Browser result:</p>
+        <div style="border: 3px solid blue; padding: 15px; width:37%">
+          <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+        </div>
+        <p>Screenshot from the browser</p>
+        <img src="imagenes/resultado-a.png" alt="Result of the &lt;a&gt; example">
+      </div>
+      <p>
+        More info:
+        <a href="https://www.w3schools.com/tags/tag_a.asp" target="_blank">W3Schools</a> |
+        <a href="pdfs/a.pdf" download>Download PDF</a>
+      </p>
+    </div>
+
+    <!-- <img> tag -->
+    <div id="etiqueta-img" class="bloque-etiqueta">
+      <h2><strong>&lt;img&gt;</strong> Tag</h2>
+      <p>The <strong>&lt;img&gt;</strong> tag is used to display images on a webpage.</p>
+      <p>It requires at least the <strong>src</strong> attribute (image source) and <strong>alt</strong> (alternative text if image cannot be displayed).</p>
+      <p>The example also uses the <strong>width</strong> attribute to control the image size.</p>
+      <p>Note: this tag is self-closing, it does not require a closing tag.</p>
+      <div class="ejemplo">
+        <p><strong>Example:</strong></p>
+        <pre>
+<b>&lt;img src</b>="logos/IconoHome.png" <b>alt</b>="House logo" width="50"<b>&gt;</b>
+        </pre>
+        <p>Browser result:</p>
+        <div style="border: 3px solid blue; padding: 15px; width: 37%;">
+          <img src="logos/IconoHome.png" alt="House logo" width="50">
+        </div>
+        <p>Screenshot from the browser</p>
+        <img src="imagenes/resultado-img.png" alt="Result of the &lt;img&gt; example">
+      </div>
+      <p>
+        More info:
+        <a href="https://www.w3schools.com/tags/tag_img.asp" target="_blank">W3Schools</a> |
+        <a href="pdfs/img.pdf" download>Download PDF</a>
+      </p>
+    </div>
+
+    <!-- <div> tag -->
+    <div id="etiqueta-div" class="bloque-etiqueta">
+      <h2><strong>&lt;div&gt;</strong> Tag</h2>
+      <p>The <strong>&lt;div&gt;</strong> tag is used to group content and apply styles or scripts to entire blocks. It doesn’t have specific semantic meaning but is very useful to structure web pages.</p>
+      <p>It acts as a container for other tags.</p>
+      <div class="ejemplo">
+        <p><strong>Example:</strong></p>
+        <pre>
+<b>&lt;div</b> style="background-color: #f0f0f0; padding: 10px;"<b>&gt;</b>
+  &lt;p&gt;This paragraph is inside a light blue div.&lt;/p&gt;
+  &lt;p&gt;This image is also inside the div.&lt;/p&gt;
+  &lt;img src="logos/IconoHome.png" alt="House logo" width="50"&gt;
+<b>&lt;/div&gt;</b>
+        </pre>
+        <p>Browser result:</p>
+        <div style="border: 3px solid blue; padding: 15px; width:37%">
+          <div style="background-color: #a9bfd0; padding: 10px;">
+            <p>This paragraph is inside a light blue div.</p>
+            <p>This image is also inside the div.</p>
+            <img src="logos/IconoHome.png" alt="House logo" width="50">
+          </div>
+        </div>
+        <p>Screenshot from the browser</p>
+        <img src="imagenes/resultado-div.png" alt="Result of the &lt;div&gt; example">
+      </div>
+      <p>
+        More info:
+        <a href="https://www.w3schools.com/tags/tag_div.asp" target="_blank">W3Schools</a> |
+        <a href="pdfs/div.pdf" download>Download PDF</a>
+      </p>
+    </div>
+
+    <!-- <table> tag -->
+    <div id="etiqueta-table" class="bloque-etiqueta">
+      <h2><strong>&lt;table&gt;</strong> Tag</h2>
+      <p>The <strong>&lt;table&gt;</strong> tag is used to create tables in HTML. It includes nested tags like <strong>&lt;tr&gt;</strong> (row), <strong>&lt;th&gt;</strong> (header), and <strong>&lt;td&gt;</strong> (data cell).</p>
+      <p>Use as many <strong>&lt;tr&gt;</strong> ... <strong>&lt;/tr&gt;</strong> blocks as needed for your rows.</p>
+      <p>The <strong>&lt;th&gt;</strong> tag appears bold and centered by default.</p>
+      <p>The <strong>&lt;td&gt;</strong> tag appears left-aligned by default.</p>
+      <div class="ejemplo">
+        <p><strong>Example:</strong></p>
+        <pre>
+<b>&lt;table</b> border=1 style="width:25%;"<b>&gt;</b>
+  <b>&lt;tr&gt;</b>
+    <b>&lt;th&gt;</b>Name<b>&lt;/th&gt;</b>
+    <b>&lt;th&gt;</b>Age<b>&lt;/th&gt;</b>
+  <b>&lt;/tr&gt;</b>
+  <b>&lt;tr&gt;</b>
+    <b>&lt;td&gt;</b>Ana<b>&lt;/td&gt;</b>
+    <b>&lt;td&gt;</b>25<b>&lt;/td&gt;</b>
+  <b>&lt;/tr&gt;</b>
+<b>&lt;/table&gt;</b>
+        </pre>
+        <p>Browser result:</p>
+        <div style="border: 1px solid #ccc; padding: 10px;">
+          <table border=1 style="width: 25%;">
+            <tr>
+              <th>Name</th>
+              <th>Age</th>
+            </tr>
+            <tr>
+              <td>José</td>
+              <td>51</td>
+            </tr>
+          </table>
+        </div>
+        <img src="imagenes/resultado-table.png" alt="Result of HTML table example">
+      </div>
+      <p>
+        More info:
+        <a href="https://www.w3schools.com/tags/tag_table.asp" target="_blank">W3Schools</a> |
+        <a href="pdfs/table.pdf" download>Download PDF</a>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <p>© 2025 Web4U - All rights reserved. Created by Josuaburgui</p>
+</footer>
+</body>
+</html>
