@@ -26,6 +26,12 @@ Repositorio con los temas y ejercicios
 | [Ejercicio 17](/TEMA1/ejercicio17)   | Ejercicio_17html |
 | [Ejercicio 18](/TEMA1/ejercicio18)   | Ejercicio_18html |
 
+## Página WEB web4U
+
+| Ejercicio | Descripción |
+| --------- | ----------- |
+| [Practica pagina web Web4U](Practica pagina web Web4U/Practica pagina web Wed4U) | página web Manual básico HTML-CSS-SVG |
+
 ## TEMA 2 CSS
 
 | Ejercicio | Descripción |
