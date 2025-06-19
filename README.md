@@ -30,7 +30,7 @@ Repositorio con los temas y ejercicios
 
 | Ejercicio | Descripción |
 | --------- | ----------- |
-| [Práctica página web Web4U](Práctica_página_web_Web4U/Práctica_página_web_Wed4U) | página web Manual básico HTML-CSS-SVG |
+| [Práctica página web Web4U](Práctica_página_web_Web4U/Practica_pagina_web_Wed4U) | página web Manual básico HTML-CSS-SVG |
 
 ## TEMA 2 CSS
 
